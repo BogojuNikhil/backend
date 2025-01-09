@@ -14,6 +14,8 @@ app.get('/nik', (req, res) => {
     res.send("HI nik!")
 }) 
 
+console.log("Hello World!");
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
